@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Chapitre 3</title>
+</head> 
+
+<body>  
+
+	<h1>Conventions.</h1>
+
+	<h2>Balises.</h2>
+	<ul>
+		<li>De nombreuses structures HTML nécessitent obligatoirement une balise d'ouverture et une de fermeture. La balise de fermeture contiendra en plus de la balise d'ouverture, une barre oblique après le signe "plus petit que". <br />Exemple : &lt;balise&gt;insertion du texte entre les balises&lt;/balise&gt;</li>
+		<li>En HTML, les différentes balises peuvent être écrites indifféremment en minuscules ou en majuscules. 	<br />Exemple : &lt;HEAD&gt; = &lt;head&gt;
+		En XHTML, les balises doivent s’écrire obligatoirement en minuscules.
+		</li>
+		<li>Les éléments HTML peuvent s'imbriquer mais il est impératif de respecter l'ordre des instructions. Lorsqu'une paire de balises doit en contenir d'autres, celles-ci doivent y figurer au complet et les balises de fermeture doivent suivre l'ordre inverse des balises d'ouverture. 
+		<br />Exemple correct : 	&lt;H1&gt;&lt;I&gt;Cette imbrication est correcte&lt;/I&gt;&lt;/H1&gt;
+		<br />Exemple incorrect : &lt;H1&gt;&lt;I&gt;Cette imbrication est incorrecte&lt;/H1&gt;&lt;/I&gt;
+		</li>
+		<li>Certaines instructions ne nécessitent pas de balises de fermeture. Exemples :
+			&lt;BR&gt;
+			&lt;HR&gt;
+			&lt;IMG… &gt;
+		</li>
+	</ul>
+
+	<h2>Insertion de commentaires dans le code.</h2>
+	<p>Pour insérer des commentaires dans une page HTML, on utilisera la balise suivante : &lt;!-- commentaire --&gt;. Les navigateurs ignorent les commentaires, ce qui signifie que ceux-ci ne s'affichent pas à l'écran et que l'on peut en trouver même en dehors des balises &lt;HTML&gt; et &lt;/ HTML &gt;. Un commentaire sert à rendre le code plus compréhensible et peut donc s'étendre sur plusieurs lignes. Il est conseillé d'en user abondamment, ne serait ce que dans le but d'effectuer plus facilement les mises à jour et les modifications ultérieures qui pourraient être effectuées par un tiers.</p>
+
+	<h2>Utilisation de caractères spéciaux.</h2>
+	<p>Les caractères spéciaux dont font partie, entre autre, les caractères accentués, doivent être codés pour assurer un affichage correct, quel que soit le navigateur, la version et la langue de configuration que l'on utilise. </p>
+	<p>http://www.debart.fr/pdf/symbol.pdf</p>
+
+</body>
+</html>
