@@ -1,0 +1,39 @@
+/* Base */
+* { box-sizing: border-box; }
+body {
+  background:#1F2039;
+  margin:0;
+}
+
+/* Titres & texte */
+h1 {
+  color:#A5B4FC;
+  font-size:3.5em;
+  text-align:center;
+  font-family:'Montserrat', system-ui, -apple-system, sans-serif;
+}
+h2, p, li { color:#F9F8FF; }
+p { font-family:'Manrope', sans-serif; font-size:1em; }
+
+/* Listes */
+ul li, ol li {
+  font-family:'Manrope', sans-serif;
+  font-size:1.1em;
+}
+
+/* Liens */
+.header a, .footer a {
+  color:#242424;
+  text-decoration:none;
+  font-family:'Manrope', sans-serif;
+}
+.header a:hover, .footer a:hover,
+.coeur a:hover, .coeur a:focus { text-decoration:underline; }
+
+
+
+/* Zones */
+.header, .footer { background:#fff; }
+
+/* Accent */
+.mot-color { color:#A5B4FC; }
